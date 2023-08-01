@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import Header from "./components/header/page";
 import Presentation from "./components/presentation/page";
