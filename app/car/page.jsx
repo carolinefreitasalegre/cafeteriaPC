@@ -96,7 +96,7 @@ export default function Car() {
               </Order>
               <Image
                 src={Line}
-                alrt="divisor"
+                alt="divisor"
                 style={{
                   strokeWidth: "1px",
                   color: "#E6E5E5",
