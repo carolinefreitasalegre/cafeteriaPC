@@ -1,3 +1,8 @@
 {
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/car/page": "app/car/page.js",
+  "/car/delivery/page": "app/car/delivery/page.js",
+  "/components/header/page": "app/components/header/page.js",
+  "/components/listmenu/page": "app/components/listmenu/page.js",
+  "/components/presentation/page": "app/components/presentation/page.js"
 }

@@ -1,4 +1,4 @@
-// File: C:\Users\carol\OneDrive\Área de Trabalho\cafeteriaPlus - Copia\app\components\header\page.jsx
+// File: C:\Users\carol\OneDrive\Área de Trabalho\cafeteriaPlus\app\components\header\page.jsx
 import * as entry from '../../../../../app/components/header/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
