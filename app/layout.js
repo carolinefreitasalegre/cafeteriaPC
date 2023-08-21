@@ -1,11 +1,14 @@
 "use client";
 
 import "./globals.css";
+import StyledComponentsRegistry from "../app/lib/registry";
 
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR">
       <head>
+        <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
+
         <link
           href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&display=swap"
           rel="stylesheet"
