@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import {
   Container,
   Card,
@@ -19,6 +19,8 @@ export default function Menu() {
     list.map((item) => <p>{item.price}</p>);
   }
 
+  const [count, setCount] = useState(0);
+
   return (
     <Container>
       <Card key={Math.random()}>
@@ -36,10 +38,8 @@ export default function Menu() {
             <Description>{item.description}</Description>
             <Price>
               R${item.price}
-              <Button> + </Button> 1 <Button> - </Button>
-              {/* <BsFillCartPlusFill
-                style={{ color: "orange", cursor: "pointer" }}
-              /> */}
+              <Button onClick={() => setCount(count + 1)}> + </Button> {count}
+              <Button onClick={() => setCount(count - 1)}> - </Button>
             </Price>
           </CardMedia>
         ))}
